@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+}
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #002868;
+}
+.logo {
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul {
+    display: flex;
+    gap: 20px;
+}
+.navbar ul li {
+    list-style: none;
+}
+header {
+    background: linear-gradient(to right, #002868, #bf0a30);
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+}
+.usa-section {
+    display: flex;
+    flex-direction: row; 
+    background: white;
+    margin-bottom: 3rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.usa-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+}
+.usa-text {
+    width: 60%;
+    padding: 2rem;
+}
+.usa-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.section-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 2rem auto;
+}
+.usa-section:nth-child(even) {
+    flex-direction: column-reverse;
+}
+.usa-text h2 {
+    color: #002868;
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+}
+.usa-text p {
+    line-height: 1.6;
+    color: #333;
+}
+footer {
+    background: #002868;
+    color: white;
+    text-align: center;
+    padding: 2rem 0;
+    margin-top: 2rem;
+}   
+.usa-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
